@@ -1,0 +1,24 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3%;
+  font-weight: 700;
+  line-height: 1mm;
+}
+.frjscc {
+  min-height: 35px !important;
+}
+.links {
+  text-decoration: none !important;
+  color: black;
+  font-weight: 600;
+}
+.closenav {
+  background-color: rgb(248, 249, 250) !important;
+}

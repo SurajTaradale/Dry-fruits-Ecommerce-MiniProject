@@ -1,0 +1,80 @@
+.Getstartcard {
+  margin: 0px;
+  padding: 0px;
+  width: 80%;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 25px;
+}
+.imagecard {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardlist {
+  margin: auto;
+  width: 85%;
+  height: 60vh;
+  display: flex !important;
+  flex-direction: column !important;
+  /* justify-content: center !important; */
+}
+.slick-arrow{
+  display: none !important;
+}
+.img{
+  width: 100%;
+  height: 200px;
+}
+.LinkCard{
+  width: 75%;
+  height: 90%;
+}
+.cardWise{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(51, 51, 51, 0.2);
+  overflow: hidden;
+  transition: all 0.1ms ease-in-out;
+  
+}
+.cardMain{
+  margin: auto;
+  display: flex !important;
+  justify-content: center;
+}
+.ProductTitle{
+  font-weight: 700;
+  padding:5%;
+}
+.cardContain{
+  padding: 0px;
+}
+.price{
+  font-weight: 500;
+}
+.textinfo{
+  padding-bottom: 10%;
+}
+@media only screen and (max-width: 600px) {
+  .cardlist {
+    margin: auto;
+    width: 100%;
+    height: 45vh;
+  }
+  .cardWise{
+    width: 90%;
+  }
+  .img{
+    width: 100%;
+    height: 120px;
+  }
+  .card1{
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    width: 16rem !important;
+  }
+}

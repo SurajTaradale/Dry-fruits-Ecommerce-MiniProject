@@ -1,0 +1,20 @@
+.About {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.allcenter {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+.text {
+  font-weight: 800;
+}
+.aboutcontain{
+  font-size: 16px;
+  font-weight: 500;
+}
